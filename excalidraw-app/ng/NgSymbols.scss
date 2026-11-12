@@ -1,0 +1,52 @@
+.ng-symbols {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  color: var(--color-on-surface);
+  font-size: 0.85rem;
+}
+.ng-symbols p {
+  margin: 0;
+  line-height: 1.45;
+}
+.ng-symbols label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.ng-symbols input,
+.ng-symbols select,
+.ng-symbols button {
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--default-border-color);
+  border-radius: 0.4rem;
+  background: var(--island-bg-color);
+  color: inherit;
+}
+.ng-symbols button {
+  cursor: pointer;
+}
+.ng-symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+.ng-symbols-grid button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.ng-symbols-grid img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+.ng-symbols-grid span {
+  max-width: 100%;
+  word-break: break-word;
+  font-size: 0.7rem;
+}
